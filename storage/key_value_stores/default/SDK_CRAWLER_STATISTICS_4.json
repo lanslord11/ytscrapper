@@ -1,0 +1,52 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 93988,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2024-09-24T06:45:36.210Z",
+  "crawlerFinishedAt": "2024-09-24T06:50:26.136Z",
+  "statsPersistedAt": "2024-09-24T06:50:26.136Z",
+  "crawlerRuntimeMillis": 290395,
+  "crawlerLastStartTimestamp": 1727160335741,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 4,
+  "requestAvgFailedDurationMillis": 93988,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 93988,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {
+    "200": 4
+  },
+  "errors": {
+    "/media/piyush/study/project/crawlee-project/node_modules/@apify/timeout/cjs/index.cjs:64:68": {
+      "missing error code": {
+        "Error": {
+          "requestHandler timed out after 60 seconds.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "/media/piyush/study/project/crawlee-project/node_modules/@apify/timeout/cjs/index.cjs:64:68": {
+      "missing error code": {
+        "Error": {
+          "requestHandler timed out after 60 seconds.": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 9,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 2484,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2024-09-24T06:45:07.610Z",
+  "crawlerFinishedAt": "2024-09-24T06:45:13.600Z",
+  "statsPersistedAt": "2024-09-24T06:45:13.600Z",
+  "crawlerRuntimeMillis": 6646,
+  "crawlerLastStartTimestamp": 1727160306954,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 3,
+  "requestAvgFailedDurationMillis": 2484,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 2484,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {},
+  "errors": {
+    "/media/piyush/study/project/crawlee-project/node_modules/@crawlee/playwright/internals/utils/playwright-utils.js:165:17": {
+      "missing error code": {
+        "Error": {
+          "page.goto: net::ERR_EMPTY_RESPONSE at https://www.youtube.com/playlist?list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "/media/piyush/study/project/crawlee-project/node_modules/@crawlee/playwright/internals/utils/playwright-utils.js:165:17": {
+      "missing error code": {
+        "Error": {
+          "page.goto: net::ERR_EMPTY_RESPONSE at https://www.youtube.com/playlist?list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "requestsFinished": 1,
+  "requestsFailed": 0,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 1,
+  "requestMinDurationMillis": 8716,
+  "requestMaxDurationMillis": 8716,
+  "requestTotalFailedDurationMillis": 0,
+  "requestTotalFinishedDurationMillis": 8716,
+  "crawlerStartedAt": "2024-09-24T06:51:08.531Z",
+  "crawlerFinishedAt": "2024-09-24T06:51:50.728Z",
+  "statsPersistedAt": "2024-09-24T06:51:50.728Z",
+  "crawlerRuntimeMillis": 42873,
+  "crawlerLastStartTimestamp": 1727160667855,
+  "requestRetryHistogram": [
+    null,
+    1
+  ],
+  "statsId": 5,
+  "requestAvgFailedDurationMillis": null,
+  "requestAvgFinishedDurationMillis": 8716,
+  "requestTotalDurationMillis": 8716,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {
+    "200": 1
+  },
+  "errors": {},
+  "retryErrors": {
+    "/media/piyush/study/project/crawlee-project/node_modules/@crawlee/playwright/internals/utils/playwright-utils.js:165:17": {
+      "missing error code": {
+        "Error": {
+          "page.goto: net::ERR_TIMED_OUT at https://www.youtube.com/playlist?list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU": {
+            "count": 1
+          }
+        }
+      }
+    }
+  }
+}
